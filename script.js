@@ -1,4 +1,5 @@
 var topButton = document.getElementById("topBtn");
+
 window.onscroll = function() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     topButton.style.display = "block";
@@ -8,5 +9,5 @@ window.onscroll = function() {
 };
 
 function topFunction() {
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
