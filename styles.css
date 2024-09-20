@@ -6,6 +6,16 @@ body {
     padding: 0;
 }
 
+/* Header Styles */
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: #B15983;
+}
+
+/* Other styles... */
+
 /* Header */
 header {
     background-color: #B15983;
