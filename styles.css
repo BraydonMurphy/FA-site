@@ -156,3 +156,14 @@ footer p {
   cursor: pointer;
 }
 
+#topBtn:hover {
+  background-color: #a14876;
+}
+
+.service-card img {
+    width: 100%; /* For mobile */
+    max-width: 600px; /* Restricts image width on larger screens */
+    height: auto; /* Keeps the aspect ratio */
+    margin: 0 auto; /* Centers the image in the browser */
+    display: block; /* Removes extra space */
+}
