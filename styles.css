@@ -22,10 +22,10 @@ nav a:hover {
 }
 
 header h1 {
-    font-family: 'Gowun Batang', sans-serif;
+    font-family: 'Gowun Batang', serif; /* Changed fallback to serif */
     font-weight: 700;
     font-style: italic;
-    font-size: 4.5em; /* Adjusted for visual impact */
+    font-size: 4.5em;
     color: #080406;
     text-shadow: 3px 1px 4px rgba(1, 1, 1, 0.3);
 }
