@@ -1,4 +1,4 @@
-/* Global styles */
+/* Global Styles */
 body {
     font-family: 'Helvetica Neue', Open Sans, sans-serif;
     background-color: #f4f4f4;
@@ -7,17 +7,6 @@ body {
 }
 
 /* Header Styles */
-header h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 6em;
-    color: #080406;
-    text-shadow: 3px 3px 6px rgba(1, 1, 1, 0.3);
-}
-
-/* Other styles... */
-
-/* Header */
 header {
     background-color: #B15983;
     color: #fff;
@@ -26,11 +15,14 @@ header {
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 6em; /* Adjusted for visual impact */
+    color: #080406;
+    text-shadow: 3px 3px 6px rgba(1, 1, 1, 0.3);
 }
 
-/* Navigation */
+/* Navigation Styles */
 nav {
     margin: 0;
     padding: 15px;
@@ -51,7 +43,7 @@ nav a:hover {
     color: #333;
 }
 
-/* Main Content */
+/* Main Content Styles */
 section {
     background-color: #ffffff;
     margin: 40px auto;
@@ -73,18 +65,7 @@ section p {
     color: #333;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
+/* Footer Styles */
 footer {
     margin-top: auto;
     background-color: #333;
@@ -97,6 +78,8 @@ footer p {
     margin: 0;
     font-size: 1em;
 }
+
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     section {
         padding: 10px;
@@ -107,6 +90,8 @@ footer p {
         font-size: 1.8em;
     }
 }
+
+/* Service Card Styles */
 .service-card img {
     width: 100%;
     border-radius: 8px;
@@ -114,6 +99,8 @@ footer p {
     max-height: 200px;
     object-fit: cover;
 }
+
+/* Hero Section Styles */
 .hero-image {
     text-align: center;
     padding: 50px 20px;
@@ -135,6 +122,8 @@ footer p {
     font-size: 1.2em;
     color: #333;
 }
+
+/* About Us Section */
 .about-us {
     text-align: center;
     padding: 40px 20px;
@@ -142,7 +131,7 @@ footer p {
 
 .about-image {
     width: 100%;
-    max-width: 600px; /* Adjust as needed */
-    border-radius: 10px; /* Optional: Rounded corners */
+    max-width: 600px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
