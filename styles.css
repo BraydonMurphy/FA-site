@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Helvetica Neue', Open Sans, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -8,9 +8,9 @@ body {
 
 /* Header Styles */
 header h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 6em;
     color: #080406;
     text-shadow: 3px 3px 6px rgba(1, 1, 1, 0.3);
 }
