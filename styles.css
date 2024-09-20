@@ -135,3 +135,14 @@ footer p {
     font-size: 1.2em;
     color: #333;
 }
+.about-us {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    border-radius: 10px; /* Optional: Rounded corners */
+    margin-bottom: 20px;
+}
