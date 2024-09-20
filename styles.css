@@ -62,15 +62,24 @@ section p {
     color: #333;
 }
 
-/* Footer */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 footer {
+    margin-top: auto;
     background-color: #333;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     padding: 15px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 footer p {
