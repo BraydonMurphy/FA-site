@@ -103,3 +103,24 @@ footer p {
     max-height: 200px;
     object-fit: cover;
 }
+.hero-image {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-image h1 {
+    color: #B15983;
+    font-size: 2.5em;
+}
+
+.hero-image p {
+    font-size: 1.2em;
+    color: #333;
+}
