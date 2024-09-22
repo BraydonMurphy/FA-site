@@ -27,11 +27,13 @@ header h1 {
     font-size: 5em;
     color: #080406;
     text-shadow: 3px 2px 4px rgba(1, 1, 1, 0.3);
-    background-color: rgba(0, 0, 0, 0.1); /* Adds a semi-transparent black backdrop */
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 15px;
     display: inline-block;
-    border-radius: 8px; /* Optional: rounded corners */
+    border-radius: 8px;
+    margin-bottom: 15px; /* Reduces space below the title */
 }
+
 
 
 /* Navigation Styles */
