@@ -22,12 +22,17 @@ nav a:hover {
 }
 
 header h1 {
-    font-family: 'Gowun Batang', serif; /* fallback to serif */
+    font-family: 'Gowun Batang', serif;
     font-weight: 700;
     font-size: 5em;
     color: #080406;
     text-shadow: 3px 2px 4px rgba(1, 1, 1, 0.3);
+    background-color: rgba(0, 0, 0, 0.1); /* Adds a semi-transparent black backdrop */
+    padding: 15px;
+    display: inline-block;
+    border-radius: 8px; /* Optional: rounded corners */
 }
+
 
 /* Navigation Styles */
 nav {
