@@ -24,7 +24,7 @@ nav a:hover {
 header h1 {
     font-family: 'Gowun Batang', serif; /* fallback to serif */
     font-weight: 700;
-    font-size: 8 em;
+    font-size: 5em;
     color: #080406;
     text-shadow: 3px 2px 4px rgba(1, 1, 1, 0.3);
 }
@@ -61,8 +61,8 @@ section {
 }
 
 section h2 {
-    color: #B15983;
-    font-size: 2em;
+    color: #669B99;
+    font-size: 2.2em;
     margin-bottom: 15px;
 }
 
@@ -148,7 +148,7 @@ footer p {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  background-color: #B15983;
+  background-color: #003331;
   color: white;
   padding: 10px;
   border-radius: 5px;
